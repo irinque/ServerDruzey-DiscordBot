@@ -13,7 +13,7 @@ import asyncio
 intents = discord.Intents().all()
 bot = commands.Bot(command_prefix="!", intents=discord.Intents().all())  # Параметр Бот
 client = discord.Client
-Token = "MTAyNzkyNjA1NjA1NDgzNzMyOQ.Geh_vr.dFSQ9bAPmfZ1Hz6yUB3XurSgmRfX-liQvvUuJA"  # Токен Бота
+Token = ""  # Токен Бота
 ROLES = {}  # Все роли сервера
 MAX_ROLES_PER_USER = 999  # Максимальное кол-во ролей у человека
 DATABASE = "serverdruzey3.db"
